@@ -38,7 +38,7 @@ body {
   overflow-x: hidden; 
 }
 :root{
-  --blue-color:#361CC1;
+  --blue-color:#5288b3;
 }
 
 * {
@@ -275,7 +275,7 @@ p {
       height: 100%;
       border-style: solid;
       /* Spinner Color */
-      border-color: #361CC1 #361CC1 #E1E1E1;
+      border-color:  	#061C5E #001e5f #E1E1E1;
       border-radius: 50%;
       border-width: 6px; }
     .preloader .loader .ytp-spinner-left .ytp-spinner-circle {
@@ -678,7 +678,7 @@ p {
         color: #2E2E2E; }
         .navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
           padding-left: 25px;
-          color: #361CC1; }
+          color: #001e5f; }
 
 .navbar-nav .sub-nav-toggler {
   display: none; }
@@ -759,7 +759,7 @@ p {
   color: #2E2E2E; }
 
 .sticky .navbar-nav .nav-item.active > a, .sticky .navbar-nav .nav-item:hover > a {
-  color: #361CC1; }
+  color: #001e5f; }
 
 /*===== HEADER HERO =====*/
 .header-hero {
@@ -914,7 +914,7 @@ p {
       .single-services .services-content .services-title a {
         font-size: 20px; } }
     .single-services .services-content .services-title a:hover {
-      color: #361CC1; }
+      color: #001e5f; }
   .single-services .services-content .text {
     margin-top: 30px; }
     @media (max-width: 767px) {
@@ -933,7 +933,7 @@ p {
     .single-services .services-content .more i {
       margin-left: 10px; }
     .single-services .services-content .more:hover {
-      color: #361CC1; }
+      color: #001e5f; }
   .single-services:hover {
     border-color: #FE7A7B; }
     .single-services:hover .services-icon .shape {
@@ -1101,9 +1101,9 @@ p {
       background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
       background: linear-gradient(#fe8464 0%, #fe6e9a 100%); }
     .counter-wrapper .single-counter.counter-color-3::before {
-      background: -webkit-linear-gradient(#361cc1 0%, #2e82ef 100%);
-      background: -o-linear-gradient(#361cc1 0%, #2e82ef 100%);
-      background: linear-gradient(#361cc1 0%, #2e82ef 100%); }
+      background: -webkit-linear-gradient(#001e5f 0%, #2e82ef 100%);
+      background: -o-linear-gradient(#001e5f 0%, #2e82ef 100%);
+      background: linear-gradient(#001e5f 0%, #2e82ef 100%); }
     .counter-wrapper .single-counter .count {
       font-size: 22px;
       font-weight: 700;
@@ -1353,7 +1353,7 @@ p {
       opacity: 1;
       color: #B9B9B9; }
     .subscribe-form input:focus {
-      border-color: #361CC1; }
+      border-color: #001e5f; }
   .subscribe-form button {
     position: absolute;
     top: 0;
@@ -1508,9 +1508,9 @@ p {
   height: 40px;
   line-height: 40px;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
-  background: -o-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
-  background: linear-gradient(to right, #361cc1 0%, #2e82ef 100%);
+  background: -webkit-linear-gradient(left, #001e5f 0%, #2e82ef 100%);
+  background: -o-linear-gradient(left, #001e5f 0%, #2e82ef 100%);
+  background: linear-gradient(to right, #001e5f 0%, #2e82ef 100%);
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
