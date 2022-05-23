@@ -35,7 +35,11 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #6A6972;
-  overflow-x: hidden; }
+  overflow-x: hidden; 
+}
+:root{
+  --blue-color:#361CC1;
+}
 
 * {
   margin: 0;
@@ -493,6 +497,7 @@ p {
 ===========================*/
 /*===== NAVBAR =====*/
 .navbar-area {
+  background-color: #fff;
   position: absolute;
   top: 0;
   left: 0;
@@ -604,7 +609,7 @@ p {
   .navbar-nav .nav-item a {
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
+    color: var(--blue-color);
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -1515,4 +1520,8 @@ p {
   transition: all 0.3s ease-out 0s;
   display: none; }
   .back-to-top:hover {
-    color: #fff; }
+    color: #fff; 
+}
+#nav ul li a{
+  color:blue;
+}
